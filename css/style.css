@@ -4,6 +4,20 @@
 
 #movies img, #movie img{
   width:100%;
+  margin: 1em auto;
+}
+
+#movies h6{
+	font-style: 600;
+	margin-bottom: 0;
+}
+
+#movies a{
+	color: #ccc;
+}
+
+#movies a:hover{
+	text-decoration: none;
 }
 
 @media(min-width:960px){

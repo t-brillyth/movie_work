@@ -16,9 +16,11 @@ function getMovies(searchText){
         output += `
           <div class="col-md-3">
             <div class="well text-center">
-              <img src="${movie.Poster}">
-              <h5>${movie.Title}</h5>
-              <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
+              <a onclick="movieSelected('${movie.imdbID}')" href="#">
+                <img src="${movie.Poster}">
+                <h6>${movie.Title}</h6>
+                <p>${movie.Year}</p>
+              </a>
             </div>
           </div>
         `;
